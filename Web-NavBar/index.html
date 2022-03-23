@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    
+    <div class="main-section">
+        <div class="toggle">
+            <div class="hamburger">
+               <span></span>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Addicts</h2>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="AboutUs.html">About</a>
+                <a href="AboutUs.html">Projects</a>
+                <a href="AboutUs.html">Contact US</a>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Welcome to Sidebar</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, aut. Nam, iure in accusantium neque libero voluptate 
+                laborum obcaecati dolore ipsa adipisci sapiente ullam unde veniam odit aliquid ut dolorem, quasi eligendi illo voluptates
+                 eveniet dolorum temporibus, perspiciatis magni! Obcaecati ut quibusdam voluptate molestiae exercitationem. Delectus 
+                 cupiditate sapiente nisi recusandae ipsum, iste sunt, earum aliquam quo voluptate aperiam voluptatem quos maiores beatae, 
+                 corporis animi repellendus voluptatum magni ut voluptas molestias atque mollitia? Quidem, mollitia autem! Consequatur porro
+                  totam inventore eos perspiciatis aliquam vel hic minima sed! Velit beatae aspernatur nam ut omnis saepe illum, modi deserunt 
+                 nostrum autem. Incidunt eum minus quis iusto eaque molestiae labore earum, veritatis perspiciatis illum culpa laborum tenetur
+                 voluptatibus tempora praesentium et iste? Laudantium non molestiae tempore inventore harum iste aliquam voluptate! Sint asperiores
+                 ab dolore sunt quae minima? Aliquam cupiditate iure dignissimos animi alias dolor aut doloremque dolorum commodi facilis accusantium, 
+                 ducimus aperiam veniam minus? Sed distinctio saepe unde pariatur a itaque iusto architecto, vel dicta non quas fugit omnis earum
+                 atque accusantium suscipit tempora fugiat repellendus rerum aperiam. Nemo nisi aut molestiae similique, odio, dolores cum excepturi 
+                 odit ducimus consequatur voluptatibus? laborum obcaecati dolore ipsa adipisci sapiente ullam unde veniam odit aliquid ut dolorem, quasi eligendi illo voluptates
+                 eveniet dolorum temporibus, perspiciatis magni! Obcaecati ut quibusdam voluptate molestiae exercitationem. Delectus 
+                 cupiditate sapiente nisi recusandae ipsum, iste sunt, earum aliquam quo voluptate aperiam voluptatem quos maiores beatae, 
+                 corporis animi repellendus voluptatum magni ut voluptas molestias atque mollitia? Quidem, mollitia autem! Consequatur porro
+                  totam inventore eos perspiciatis aliquam vel hic minima sed! Velit beatae aspernatur nam ut omnis saepe illum, modi deserunt 
+                 nostrum autem. Incidunt eum minus quis iusto eaque molestiae labore earum, veritatis perspiciatis illum culpa laborum tenetur
+                 voluptatibus tempora praesentium et iste? Laudantium non molestiae tempore inventore harum iste aliquam voluptate! Sint asperiores
+                 ab dolore sunt quae minima? Aliquam cupiditate iure dignissimos animi alias dolor aut doloremque dolorum commodi facilis accusantium, 
+                 ducimus aperiam veniam minus? Sed distinctio saepe unde pariatur a itaque iusto architecto, vel dicta non quas fugit omnis earumRepellat laborum pariatur nobis numquam incidunt eum modi amet, dolorem eligendi eaque!</p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const toggle = document.querySelector('.toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        toggle.addEventListener('click', ()=>{
+            toggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        })
+    </script>
+
+    <footer class="footer">
+        <h2>Copyright 2010</h2>
+        <pre>
+            Copyright is a form of protection grounded in the U.S. Constitution and granted by law for original works of 
+            authorship fixed in a tangible medium of expression. Copyright covers both published and unpublished works.
+        </pre>
+    </footer>
+
+</body>
+</html>
